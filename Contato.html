@@ -1,32 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+  <meta charset="utf-8" />
   <title>Tia Dila Festas</title>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <form class="form-inline" action="/action_page.php">
-    <div class="form-group">
-      <label for="email">Email address:</label>
-      <input type="email" class="form-control" id="email">
-    </div>
-    <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd">
-    </div>
-    <div class="checkbox">
-      <label>
-        <input type="checkbox"> Remember me</label>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-  </form>
-
-
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="public/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="public/css/bootstrap-theme.min.css">
+  <script language="javascript" src="public/js/func.js"></script>
+  <script src="public/js/jquery.min.js"></script>
+  <script src="public/js/bootstrap.min.js"></script>
+  </script>
+  <script src="public/js/func.js"></script>
 </head>
 
 <body>
+  <div class="container">
+    <header>
+      <div class="tab">
+        <h1 id="title-tab">Tia Dila Festas - Locações de Utensílios para Festas</h1>
+        <div style=""="float: right;">
+          <a href="index.html">
+            <button class="btn ">Home</button>
+          </a>
+          <a href="function.html">
+            <button class="btn">Produtos</button>
+          </a>
+          <a href="contact.html">
+            <button class="btn">Galeria</button>
+          </a>
+          <a href="contact.html">
+              <button class="btn">Contato</button>
+            </a>
+            <a href="contact.html">
+                <button class="btn">Localização</button>
+              </a>
+          
+        </div>
+      </div>
+    </header>
+
+    <!-- começo -->
+    <div class="container">
+      <!-- <div class="col-sm-5"> -->
+      <div class="form-area">
+        <form role="form">
+          <br style="clear:both">
+          <h3 style="margin-bottom: 25px; text-align: center;">Quer bater um papo sobre o RedFood no seu estabelecimento?</h3>
+          <p style="text-align:center;">Você coloca seu telefone aqui embaixo e nós falamos com você rapidinho</p>
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Nome" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" id="mobile" name="mobile" placeholder="Numero de Contato" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Assunto" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" type="textarea" id="message" placeholder="Mensagem" maxlength="140" rows="7"></textarea>
+            <span class="help-block">
+              <p id="characterLeft" class="help-block ">Você atingiu o limite</p>
+            </span>
+          </div>
+          <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form>
+        <!-- </div> -->
+      </div>
+    </div>
+    <!-- Final -->
+
+
+    <footer>Rede Social para Contato:
+      <a href="https://www.facebook.com/gblcintra" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/in/gabriel-oliveira-28107563/" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/gblcintra" class="fa fa-instagram"></a>
+      <a href="https://twitter.com/gabrielcintraa" class="fa fa-twitter"></a>
+    </footer>
+  </div>
+</body>
+
+</html>
